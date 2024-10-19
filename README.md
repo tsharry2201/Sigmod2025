@@ -88,7 +88,7 @@ When there are 2 CPs to generate 2000000 **RandExp18**.
 ```
 ## Online 
 ### Simple native example 
-To facilitate testing the execution of the DP-DICE protocol in the online phase, we give a simple test example. Note that the necessary offline data needs to be generated before executing the online phase protocol.
+To facilitate testing the execution of the AMSkt-MPC protocol in the online phase, we give a simple test example. Note that the necessary offline data needs to be generated before executing the online phase protocol.
 In this example the DH holds about 10^6 unique data, which is shared secretly through 1000 FMS sketch.
 #### To establish the communication network
 The command is running on nameserver terminal to establish the communication network of each computing party
