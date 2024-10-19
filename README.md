@@ -32,10 +32,10 @@ AMSkt-MPC protocol requires several dependent libraries to run, which must be in
 - farmhash 1.1
 - openssl 1.1.1
 
-## To compile DP-DICE
+## To compile AMSkt-MPC
 Download this repository and run the following commands in cmd.
 ```bash
-cd dp-dice/
+cd AMSkt-MPC/
 make all
 ```
 After compilation, we get executable scripts `DP.x`, `CP.x`,  `pairwise-offline.x` and `Server.x`, where `pairwise-offline.x` will be used for random number generation in the offline preparation stage, and ` DP.x` and `CP.x` will be used for protocol execution in the online phase.
