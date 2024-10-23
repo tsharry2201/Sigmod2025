@@ -1,5 +1,5 @@
 # Sigmod2025
-Our source code consists of two parts, one is the cardinality estimation accuracy measurement, and the other is the AMSkt-MPC, a secure multi-party computation protocol. The accuracy measurement consists of the AMSkt Sketch algorithm and the corresponding parameter settings.The complete process of the AMSkt-MPC protocol includes the offline preparation phase，the online phase, and the corresponding parameter settings.The source code is developed based on C++ and Python.
+Our source code consists of two parts, one is the cardinality estimation accuracy measurement, and the other is the AMSkt-MPC, a secure multi-party computation protocol. The accuracy measurement consists of the AMSkt Sketch algorithm and the corresponding parameter settings. The complete process of the AMSkt-MPC protocol includes the offline preparation phase, the online phase, and the corresponding parameter settings. The source code is developed based on C++ and Python.
 # AMSkt
 
 ## To compile AMSkt
@@ -35,7 +35,7 @@ AMSkt-MPC protocol requires several dependent libraries to run, which must be in
 ## To compile AMSkt-MPC
 Download this repository and run the following commands in cmd.
 ```bash
-cd AMSkt-MPC/
+cd SIGMOD2025_cpp-main/AMSkt-MPC/
 make all
 ```
 After compilation, we get executable scripts `DP.x`, `CP.x`,  `pairwise-offline.x` and `Server.x`, where `pairwise-offline.x` will be used for random number generation in the offline preparation stage, and ` DP.x` and `CP.x` will be used for protocol execution in the online phase.
