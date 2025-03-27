@@ -1,6 +1,5 @@
-# Sigmod2025
+#AMSkt
 Our source code implements the AMSkt Sketch algorithm along with the corresponding parameter configurations. This sketch  represents a novel, memory-efficient, and privacy-preserving framework designed for multi-set cardinality estimation. The source code is developed based on C++ and Python.
-# AMSkt
 
 ## To compile AMSkt
 
